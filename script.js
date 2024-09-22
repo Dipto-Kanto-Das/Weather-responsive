@@ -24,19 +24,19 @@ document.querySelector(".humidity").innerHTML = data.main.humidity + "%";
 document.querySelector(".wind").innerHTML = data.wind.speed + "km/h";
 
 if(data.weather[0].main =="Clouds"){
-weatherIcon.src ="img/summer-beautiful-clouds-day-bright_1122-2339_processed.jpg"
+weatherIcon.src ="img/Cloudsapi.jpeg"
 }
 else if(data.weather[0].main== "Clear"){
-weatherIcon.src ="img/clear.jpg"
+weatherIcon.src ="img/Clearapi.jpeg"
 }
 else if(data.weather[0].main== "Rain"){
-weatherIcon.src ="img/download.jpeg"
+weatherIcon.src ="img/Rainapi.jpeg"
 }
 else if(data.weather[0].main== "Drizzle"){
-weatherIcon.src ="img/drizzle.jpg"
+weatherIcon.src ="img/Drizzleapi.jpeg"
 }
 else if(data.weather[0].main== "Mist"){
-weatherIcon.src ="img/backgrund_processed.jpg"
+weatherIcon.src ="img/Mistapi.jpeg"
 }
 
 document.querySelector(".weather").style.display = "block"

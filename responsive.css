@@ -2,6 +2,7 @@
 @media (max-width: 768px) {
     .card {
         padding: 30px 15px;
+        background: linear-gradient(45deg, rgb(9, 189, 220), rgb(53, 224, 101));
     }
 
     .search input {
@@ -39,6 +40,7 @@
     .card {
         width: 95%;
         margin: 50px auto 0;
+        background: linear-gradient(45deg, rgb(228, 57, 202), rgb(6, 144, 224));
     }
 
     .weather h1 {
